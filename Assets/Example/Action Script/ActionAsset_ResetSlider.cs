@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ZhTool.Level.Example
+namespace ZhTool.SimplePlot.Example
 {
     [CreateAssetMenu(fileName = "ResetSlider", menuName = "Simple Plot/Action/ResetSlider")]
     public class ActionAsset_ResetSlider : ActionAsset

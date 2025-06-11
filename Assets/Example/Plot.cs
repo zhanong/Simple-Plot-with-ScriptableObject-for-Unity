@@ -1,7 +1,7 @@
 using UnityEngine;
-using ZhTool.Level;
+using ZhTool.SimplePlot;
 
-namespace ZhTool.Level.Example
+namespace ZhTool.SimplePlot.Example
 {
     public class Plot : PlotBase
     {

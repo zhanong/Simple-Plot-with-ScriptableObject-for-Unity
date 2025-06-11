@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     #region thread base
     public abstract class ThreadAssetBase<T> : ScriptableObject where T : ThreadBase

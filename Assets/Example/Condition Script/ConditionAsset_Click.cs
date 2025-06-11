@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhTool.Level.Example
+namespace ZhTool.SimplePlot.Example
 {
     [CreateAssetMenu(fileName = "Click", menuName = "Simple Plot/Condition/Click")]
     public class ConditionAsset_Click : ConditionAsset

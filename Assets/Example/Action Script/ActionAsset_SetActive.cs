@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhTool.Level.Example
+namespace ZhTool.SimplePlot.Example
 {
     [CreateAssetMenu(fileName = "SetActive", menuName = "Simple Plot/Action/SetActive")]
     public class ActionAsset_SetActive : ActionAsset

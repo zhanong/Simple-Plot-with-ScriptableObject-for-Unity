@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ZhTool.Level.Example
+namespace ZhTool.SimplePlot.Example
 {
     [CreateAssetMenu(fileName = "SliderValue", menuName = "Simple Plot/Condition/SliderValue")]
     public class ConditionAsset_SliderValue : ConditionAsset

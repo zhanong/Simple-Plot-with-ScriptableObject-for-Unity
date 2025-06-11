@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhTool.Level.Extension
+namespace ZhTool.SimplePlot.Extension
 {
     [CreateAssetMenu(fileName = "AlwaysFalse", menuName = "Simple Plot/Condition/AlwaysFalse")]
     public class Condition_AlwaysFalseAsset : ConditionAsset

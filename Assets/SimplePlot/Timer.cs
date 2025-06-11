@@ -1,5 +1,5 @@
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     public struct Timer
     {

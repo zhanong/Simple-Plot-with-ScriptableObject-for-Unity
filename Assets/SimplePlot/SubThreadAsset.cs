@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     [CreateAssetMenu(fileName = "SubThread", menuName = "Simple Plot/SubThread")]
     public class SubThreadAsset : ThreadAssetBase<SubThread>, ITransferable<SubThread>

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     public abstract class ConditionAsset : ScriptableObject
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhTool.Level.Extension
+namespace ZhTool.SimplePlot.Extension
 {
     [CreateAssetMenu(fileName = "BondedCondition", menuName = "Simple Plot/Condition/BondedCondition")]
     public class BondedConditionAsset : ConditionAsset

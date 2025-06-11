@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     public class PlotBase : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ZhTool.Level
+namespace ZhTool.SimplePlot
 {
     public abstract class ActionAsset : ScriptableObject
     {
