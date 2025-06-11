@@ -1,3 +1,4 @@
+![](img/logo.png)
 # Introduction
 
 This is a flexible tool for creating and managing sequential game events. It allows you to visually build tutorials, quests, and other guided experiences with ease.
