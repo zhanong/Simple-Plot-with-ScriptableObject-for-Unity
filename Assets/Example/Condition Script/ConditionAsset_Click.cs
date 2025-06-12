@@ -15,7 +15,7 @@ namespace ZhTool.SimplePlot.Example
     {
         public override bool CheckCondition(PlotBase plot)
         {
-            return Input.GetMouseButtonUp(0);
+            return Input.GetMouseButtonDown(0);
         }
     }
 }
