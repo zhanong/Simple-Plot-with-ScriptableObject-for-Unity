@@ -14,7 +14,7 @@ This tool empowers you to manage these event-driven sequences intuitively. You c
 
 Plots are organized using the following hierarchy:
 
-![](img/Thread%20Structure.png)
+![](img/ThreadStructure.png)
 
 `Thread`, `SubThread`, and `Event` all inherit from a common `ThreadBase` class, meaning their core logic is very similar.
 
@@ -51,7 +51,7 @@ public class Plot : PlotBase
 
 ## 2. Create a `Thread` asset and  assign it to the `PlotBase` component
 
-![](img/plot%20inspector.png)
+![](img/PlotInspector.png)
 
 You can also set the **Update period** here.
 
@@ -61,7 +61,7 @@ Drag `SubThread` asset to the `Thread` asset's list.
 
 Here you can also set the **Lose Condition**, which are checked throughout the scene.
 
-![](img/Thread%20inspector.png)
+![](img/ThreadInspector.png)
 
 >***Is Linear***
 >- **Checked**: `SubThreads` start one by one, only after the previous `SubThread` has finished.
@@ -71,7 +71,7 @@ Here you can also set the **Lose Condition**, which are checked throughout the s
 
 Drag `Event` assets to `Subthread` assets's list.
 
-![](img/SubThread%20inspector.png)
+![](img/SubThreadInspector.png)
 
 ## 4. Customize your `Condition` classes
 
@@ -145,13 +145,13 @@ public class SetActive : Action
 
 To allow `PlotBase` to find GameObjects via `GetPlotObject`, simply attach the `PlotObject` component to those GameObjects. The `PlotBase` will register them automatically.
 
-![](img/go%20inspector.png)
+![](img/GoInspector.png)
 
 
 
 ## 6. Create and assign your `Action` and `Condition` assets
 
-![](img/Event%20inspector.png)
+![](img/EventInspector.png)
 
 You can also drag `Action` assets to the **Pre Actions** fields of other assets.
 
@@ -213,7 +213,7 @@ public class ResetSlider : Action
 
 To make subsequent `Actions` wait for this. Check the **Wait for Action** field.
 
-![](img/action%20inspector.png)
+![](img/ActionInspector.png)
 
 # Acknowledge
 This tool is made possible thanks to @krockot's [awesome TaskManager](https://github.com/krockot/Unity-TaskManager/tree/master)
