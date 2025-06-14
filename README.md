@@ -36,7 +36,7 @@ The entire system is managed by a `PlotBase` **MonoBehaviour** component. It is 
 
 ## 1. Create a script that inherits from `PlotBase` and attach it to a `GameObject`
 
-```c#
+```csharp
 public class Plot : PlotBase
 {
     void Start()
