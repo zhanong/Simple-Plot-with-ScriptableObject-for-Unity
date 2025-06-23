@@ -1,4 +1,7 @@
 ![](img/logo.png)
+
+[View On Github](https://github.com/zhanong/Simple-Plot-with-ScriptableObject-for-Unity)
+
 # Introduction
 
 This is a flexible tool for creating and managing sequential game events. It allows you to visually build tutorials, quests, and other guided experiences with ease.
